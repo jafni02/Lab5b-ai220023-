@@ -1,0 +1,126 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #4CAF50;
+    text-align: center;
+}
+
+h1{
+    color: white;  
+    margin-top: 50px;
+    font-size: 48px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Form container styling */
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Input and select styling */
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Button styling */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Link styling */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Error and success messages */
+.error {
+    color: red;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.success {
+    color: green;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+
+/*HOME PAGE*/
+
+table {
+    margin: auto;
+    width: 80%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: green;
+    color: white; 
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    display: inline;
+}
+
+a:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Style the white box container */
+.container-box {
+    background-color:  rgba(255, 255, 255, 0.8); /* White background with 80% opacity */; /* Set the white background */
+    padding: 20px; /* Add padding for better spacing */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add subtle shadow for depth */
+    max-width: 50%;
+    margin: 180px auto;
+    border: 1px solid #ccc; /* Optional: Add a light border */
+}
